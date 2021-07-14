@@ -2,6 +2,10 @@
   height: 34px;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .navbar-item .input {
   border-radius: 10px;
   width: 100%;
@@ -24,13 +28,103 @@
   box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.1);
 }
 
+@media screen and (max-width: 1024px){
+  
+  .carousel img {
+    height: 250px;
+    max-width: 100%;
+  }
+
+  .container .product-list,
+  .container .gift-collection,
+  .container .best-selling,
+  .container .new-arrivals,
+  .container .dogs-mug,
+  .container .best-friends-mug,
+  .container .sister-mug,
+  .container .blog
+   {
+    margin:  19px;
+  }
+
+  .container .product-list .main {
+    margin-top: 35px;
+  }
+
+  .button .is-medium{
+    font-size: 0;
+  }
+
+  .gift-collection .custom-border-radius {
+    border-radius: 0px !important;
+  }
+
+  .columns .button {
+    position: absolute;
+    top: 35% !important;
+    left: 50%;
+    transform: translate(-50%, 140%);
+    width: 80%;
+  }
+
+  .column .custom-border {
+    --tw-border-opacity: 1;
+    border: 1px solid rgba(221, 221, 221, var(--tw-border-opacity));
+    border-radius: 0px !important;
+    position: relative;
+  }
+
+  .custom-border{
+    height: 100%;
+  }
+
+  .tag {
+    top: -12% !important;
+    left: 79% !important;
+    transform: translate(-50%, 140%);
+    position: absolute;
+  }
+
+  .new-arrivals {
+    margin: 19px
+  }
+
+  .custom-background {
+    background: #e7e7f2;
+    padding: 21px 13px;
+    text-align: center;
+  }
+
+
+  /* .footer .container .columns .col-row {
+    display: flex;
+    justify-content: center;
+  } */
+
+
+
+  
+
+
+
+}
+
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 812x){
+
+  /* .footer .container .columns .col-row {
+    display: flex;
+    justify-content: center;
+  }  */
+  
+}
 .carousel {
   overflow: hidden;
 }
 
 .columns .button {
   position: absolute;
-  top: 50%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, 140%);
   width: 80%;
