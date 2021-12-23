@@ -15,7 +15,7 @@ CSS</br>
 Bulma CSS Framework.
 
 #### Some of the challenges I faced and features I hope to implement in the future.
-I don't have any problems.
+I don't have any problems, i hope to implement more skills of designing in the future
 
 ## How to Start Project.
 Install extension Live Server from within your Visual studio Code and start it up.
